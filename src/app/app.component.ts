@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  title = 'Tempelate Driven Form';
+  myName= "Rahul Ranjan";
+  onSubmit(value: any) {
+    
+    console.log('It works!');
+    console.log(value);
+
+  }
 }
