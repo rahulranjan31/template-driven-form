@@ -30,5 +30,6 @@
       <input type="text" class="form-control" name="city" ngModel>
     </div>
     <button [disabled]="!userForm.form.valid" type="submit" class="btn btn-primary"> Submit </button>
+    <div> Form: {{userForm.value | json}} </div>
   </form>
 </div>
